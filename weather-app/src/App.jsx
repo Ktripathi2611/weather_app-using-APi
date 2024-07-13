@@ -8,7 +8,8 @@ const App = () => {
 
   const API_KEY = 'b97cbdaea1933eb583979a03e56d4682'
   
-  const BASE_URL =` https://api.openweathermap.org/data/2.5/weather?q=${input}&apApid=${API_KEY}`
+  const BASE_URL =` https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=${API_KEY}`
+  // https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
   useEffect(() => {
     fetchData()
