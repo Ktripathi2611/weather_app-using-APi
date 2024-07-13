@@ -6,9 +6,9 @@ const App = () => {
   const[weatherData, setWeatherData] = useState()
   const [submitted,setSubmitted] = useState(false)
 
-  const API_KEY = 'f573151464fc1711ee4385c403eeae74'
+  const API_KEY = 'b97cbdaea1933eb583979a03e56d4682'
   
-  const BASE_URL =` https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=${API_KEY}`
+  const BASE_URL =` https://api.openweathermap.org/data/2.5/weather?q=${input}&apApid=${API_KEY}`
 
   useEffect(() => {
     fetchData()
